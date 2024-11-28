@@ -1,0 +1,108 @@
+.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../../../public/dsa.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .Login .demo {
+    background: rgba(20, 20, 20, 0.9);
+    border: 1px solid black;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  
+  .Login .demo h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .Login .demo p {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 35px;
+  }
+  
+  .Login .demo form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .Login .demo form input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+    transition: border-color 0.3s;
+  }
+  
+  .Login .demo form input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .Login .demo form button {
+    padding: 12px;
+    background-color: #8f6cf0;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .Login .demo form button:hover {
+    background-color: #7a5bcc;
+  }
+  
+  .Login .demo .extra {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .Login .demo .extra a {
+    color: #8f6cf0;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .Login .demo .extra a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .Login .demo {
+      padding: 20px;
+      max-width: 90%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Login .demo form input,
+    .Login .demo form button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .Login .demo h2 {
+      font-size: 20px;
+    }
+  }
+  

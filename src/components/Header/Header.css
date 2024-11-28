@@ -1,0 +1,80 @@
+.Header{
+    height: 10vh;
+    padding: 10px 20px;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+.title{
+    display: flex;
+    width: 260px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.title h1{
+    font-size: 28px;
+    color: #434343;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logout{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.logout button{
+    cursor: pointer;
+}
+.bell{
+    border: none;
+}
+.out{
+    color: white;
+    font-size: 20px;
+    padding: 6px 16px; 
+    border-radius: 18px;
+    font-weight: 100;
+    border: 2px solid black;
+    background-color: #003bc6;
+}
+.out:hover{
+    background-color: darkblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Phone View */
+@media (max-width:680px) {
+    .title h1{
+        font-size: 20px;
+    }
+    .bell{
+        display: none;
+    }
+    .Header{
+        padding: 10px 5px 0px 5px;
+    }
+    .title{
+        width: 200px;
+    }
+    .out{
+        font-size: 18px;
+    }
+}
