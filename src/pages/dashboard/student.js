@@ -207,7 +207,7 @@ const StudentDashboard = () => {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white text-center py-4 mt-6">
+      <footer className="bg-gray-800 text-white text-center py-4 fixed bottom-0 w-full">
         <p>&copy; 2024 College ERP. All rights reserved.</p>
       </footer>
     </div>
